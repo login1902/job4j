@@ -3,7 +3,7 @@ package ru.job4j;
 /**
  * Calculate.
  *
- * @author Petr Arsentev (parsentev@yandex.ru)
+ * @author Sergey Loginov
  * @version $Id$
  * @since 0.1
  */
@@ -18,8 +18,8 @@ public class Calculate {
 
     /**
      * Method echo.
-     * @param name Your name.
-     * @return Echo plus your name.
+     * @param name Sergey Loginov.
+     * @return Echo plus Sergey Loginov.
      */
     public String echo(String name) {
         return "Echo, echo, echo : " + name;
