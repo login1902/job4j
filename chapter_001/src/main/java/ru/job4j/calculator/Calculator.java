@@ -8,6 +8,7 @@ public class Calculator {
     }
 
     public void subtract(double first, double second) {
+
         this.result = first - second;
     }
 
