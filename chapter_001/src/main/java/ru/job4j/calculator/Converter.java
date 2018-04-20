@@ -11,13 +11,12 @@ public class Converter {
      * @param value рубли.
      * @return Евро.
      */
-    int Usd = 60;
-    int Eu = 70;
+    int usd = 60;
+    int eu = 70;
 
     public int rubleToEuro(int value) {
-        this.result = value / Eu;
-        return this.result;
-    }
+       return this.result = value / eu;
+       }
 
     /**
      * Конвертируем рубли в доллары.
@@ -26,9 +25,8 @@ public class Converter {
      * @return Доллоры
      */
     public int rubleToDollar(int value) {
-        this.result = value / Usd;
-        return this.result;
-    }
+        return this.result = value / usd;
+        }
 
     /**
      * Конвертируем евро в рубли.
@@ -37,9 +35,8 @@ public class Converter {
      * @return Доллоры
      */
     public int dollarToRuble(int value) {
-        this.result = value * Usd;
-        return this.result;
-    }
+        return this.result = value * usd;
+        }
 
     /**
      * Конвертируем доллары в рубли.
@@ -48,7 +45,6 @@ public class Converter {
      * @return Доллоры
      */
     public int euroToRuble(int value) {
-        this.result = value * Eu;
-        return this.result;
-    }
+        return this.result = value * eu;
+        }
 }
