@@ -12,9 +12,8 @@ double height;
      * @return идеальный вес.
      */
     public double manWeight(double height) {
-        this.result=(height-100)*1.15;
-        return this.result;
-    }
+        return this.result=(height-100)*1.15;
+        }
 
     /**
      * Идеальный вес для женщины.
@@ -22,7 +21,6 @@ double height;
      * @return идеальный вес.
      */
     public double womanWeight(double height) {
-        this.result=(height-110)*1.15;
-        return this.result;
-    }
+        return this.result=(height-110)*1.15;
+        }
 }
