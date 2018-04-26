@@ -16,7 +16,7 @@ public class Triangle {
     }
 
     public double area() {
-        double rsl= -1;
+        double rsl = -1;
         double ab = this.a.distanceTo(this.b);
         double ac = this.a.distanceTo(this.c);
         double bc = this.b.distanceTo(this.c);
@@ -29,7 +29,7 @@ public class Triangle {
     }
         private boolean exist(double ab, double ac, double bc) {
 
-        return ab + ac > bc && ab + bc > ac && ac + bc >ab;
+        return ab + ac > bc && ab + bc > ac && ac + bc > ab;
     }
 }
 

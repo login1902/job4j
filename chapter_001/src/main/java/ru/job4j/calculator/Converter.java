@@ -15,7 +15,8 @@ public class Converter {
     int eu = 70;
 
     public int rubleToEuro(int value) {
-       return this.result = value / eu;
+
+        return value / eu;
        }
 
     /**
@@ -25,7 +26,8 @@ public class Converter {
      * @return Доллоры
      */
     public int rubleToDollar(int value) {
-        return this.result = value / usd;
+
+        return value / usd;
         }
 
     /**
@@ -35,7 +37,7 @@ public class Converter {
      * @return Доллоры
      */
     public int dollarToRuble(int value) {
-        return this.result = value * usd;
+        return value * usd;
         }
 
     /**
@@ -45,6 +47,7 @@ public class Converter {
      * @return Доллоры
      */
     public int euroToRuble(int value) {
-        return this.result = value * eu;
+
+        return value * eu;
         }
 }
