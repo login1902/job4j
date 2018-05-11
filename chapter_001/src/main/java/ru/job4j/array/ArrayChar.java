@@ -20,11 +20,10 @@ public class ArrayChar {
         char[] value = prefix.toCharArray();
         for (int i = 0; i < prefix.length(); i++) {
             if (this.data[i] != value[i]) {
-                return false;
-
+                result = false;
+                break;
             }
         }
-        // проверить. что массив data имеет первые элементы одинаковые с value
         return result;
     }
 }
