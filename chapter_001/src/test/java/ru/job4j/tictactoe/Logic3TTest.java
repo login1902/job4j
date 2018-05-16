@@ -1,8 +1,10 @@
 package ru.job4j.tictactoe;
 
 import org.junit.Test;
-import static org.hamcrest.core.Is.is;
+
+import static com.sun.org.apache.xerces.internal.util.FeatureState.is;
 import static org.junit.Assert.assertThat;
+import static org.hamcrest.core.Is.is;
 
 public class Logic3TTest {
 
